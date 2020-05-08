@@ -76,7 +76,7 @@ export default class TronLinkInfo extends Component {
     /*const frag = await contract.balanceOf(
         "TPQyVFn654jn5NMT3CpW3j12AfKFoEDfJH"
     ).call();*/
-const frag = 10000000000000000000;
+const frag = 10000000;
     //call transfer function of trc20 contract
     await contract.burn(
         frag
