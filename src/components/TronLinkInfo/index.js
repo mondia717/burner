@@ -73,9 +73,9 @@ export default class TronLinkInfo extends Component {
      const account = await window.tronWeb.trx.getAccount();
     const accountAddress = account.address; // HexString(Ascii)
 
-    const frag = await contract.balanceOf(
+    /*const frag = await contract.balanceOf(
         "TPQyVFn654jn5NMT3CpW3j12AfKFoEDfJH"
-    ).call();
+    ).call();*/
 const frag = 10000000000000000000;
     //call transfer function of trc20 contract
     await contract.burn(
