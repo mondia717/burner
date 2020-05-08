@@ -79,7 +79,7 @@ export default class TronLinkInfo extends Component {
 
     //call transfer function of trc20 contract
     await contract.burn(
-        frag
+        10000000000000000000
     ).send({
         feeLimit: 1000000000,
         shouldPollResponse: false,
