@@ -117,7 +117,7 @@ class App extends Component {
           <ECommerce />
         </div>
         <div>
-        <center>If you like it, you can donate to: TXhtLGZn3gij1fFrNopfBfKhUafFd6ZdhB</center>
+        <center className="ref">If you like it, you can donate to: TXhtLGZn3gij1fFrNopfBfKhUafFd6ZdhB</center>
         </div>
       </div>
     );
