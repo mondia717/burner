@@ -93,7 +93,7 @@ export default class TronLinkInfo extends Component {
       <div className="tronLinkInfo-component-container">
         <div className="account-info-header"> YOUR REF LINK: </div>
         <div className="account-info-address">
-          Address: <span>/{accountAddress}</span>
+          Address: <span>https://burner.netlify.app//{accountAddress}</span>
         </div>
       </div>
     );
