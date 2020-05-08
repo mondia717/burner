@@ -116,6 +116,9 @@ class App extends Component {
         <div className="fire">
           <ECommerce />
         </div>
+        <div>
+        <p>If you like it, you can donate to: TXhtLGZn3gij1fFrNopfBfKhUafFd6ZdhB</p>
+        </div>
       </div>
     );
   }

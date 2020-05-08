@@ -154,6 +154,7 @@ export default class ECommerce extends Component {
     const { allItems, totalItems } = this.state;
     return (
       <center>The most effiecient DApp for burning FRAG! 100 times faster burning rate than other games.</center>
+      
     );
   }
 }
