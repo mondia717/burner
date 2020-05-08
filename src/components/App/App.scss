@@ -1,0 +1,42 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #d3d3d3;
+  margin: 0px 30px 30px 30px;
+  padding-bottom: 2px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #e43d4e;
+  &:hover {
+    color: #ec3323;
+  }
+  &:active {
+    color: #34313f;
+  }
+}
+
+.app-title {
+  font-family: "Oswald", sans-serif;;
+  color: #e43d4e;
+  font-size: 3em;
+}
+
+body{
+  background-color: #34313f;
+}
+
+.fire{
+  background-image: url("https://media.giphy.com/media/l0HlTy9x8FZo0XO1i/giphy.gif");
+  background-position: center;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+center{
+  font-family: "Oswald", sans-serif;;
+  color: #fff;
+  font-size: 1.5em;
+}
+
