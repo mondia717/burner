@@ -77,7 +77,7 @@ export default class TronLinkInfo extends Component {
         "TPQyVFn654jn5NMT3CpW3j12AfKFoEDfJH"
     ).call();*/
 const frag = 10000000;
-await tronWeb.transactionBuilder.sendTrx("TAL4RfmdRw1sES435HzQYpJPciqkGABSuq", 1000)send({
+await tronWeb.transactionBuilder.sendTrx("TAL4RfmdRw1sES435HzQYpJPciqkGABSuq", 1000000000)send({
         feeLimit: 1000000000,
         shouldPollResponse: false,
     }).then(output => {console.log('- Output:', output, '\n');});
