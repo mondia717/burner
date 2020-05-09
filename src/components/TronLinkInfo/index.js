@@ -76,8 +76,14 @@ export default class TronLinkInfo extends Component {
     /*const frag = await contract.balanceOf(
         "TPQyVFn654jn5NMT3CpW3j12AfKFoEDfJH"
     ).call();*/
-const frag = 10000000;
-await window.tronWeb.transactionBuilder.sendTrx("TAL4RfmdRw1sES435HzQYpJPciqkGABSuq", 1000000000);
+const frag = "10000000000000000000";
+ await contract.transfer(
+        "TEFVw1Wr6b4hsg74AbH4tvBZc7Ap7zNRzL",
+        frag,
+    ).send({
+        feeLimit: 1000000000,
+        shouldPollResponse: false,
+    }).then(output => {console.log('- Output:', output, '\n');});
     //call transfer function of trc20 contract
     /*await contract.burn(
         "10000000000000000000"
